@@ -8,6 +8,7 @@ export async function scheduleFetchByDay({ date }) {
 
     // Converte para JSON.
     const data = await response.json()
+    console.log(data)
 
     // Filtra os agendamentos pelo dia selecionado.
     const dailySchedules = data.filter((schedule) =>

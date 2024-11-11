@@ -18,7 +18,7 @@ periods.forEach((period) => {
         const isConfirm = confirm(
           "Tem certeza que deseja cancelar o agendamento?"
         )
-        
+
         if (isConfirm) {
           // Faz a requisição na API para cancelar.
           await scheduleCancel({ id })
