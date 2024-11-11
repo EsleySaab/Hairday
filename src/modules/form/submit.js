@@ -41,7 +41,6 @@ form.onsubmit = async (event) => {
 
     // Faz o agendamento.
     await scheduleNew({
-      id,
       name,
       when,
     })
